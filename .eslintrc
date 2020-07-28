@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "amd": true
+    },
+    "plugins": ["react", "import"],
+    "extends": ["airbnb", "plugin:prettier/recommended"],
+    "rules": {
+        "strict": 0,
+        "prettier/prettier": ["error", {
+            "endOfLine":"auto"
+          }],
+        "react/jsx-filename-extension": [0],
+        "react/jsx-uses-react": "error",   
+        "react/jsx-uses-vars": "error",
+        "no-console": 0,
+        "no-debugger": 0,
+        "no-duplicate-imports": "off"
+    }
+}
